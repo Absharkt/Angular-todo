@@ -9,7 +9,7 @@ import { TodoService } from './services/todo.service';
 // firebase
 import { provideFirebaseApp, getApp, initializeApp } from '@angular/fire/app';
 import { getFirestore, provideFirestore } from '@angular/fire/firestore';
-import { firebaseConfig } from './firebaseConfig';
+import { firebaseConfig } from './firebaseConf';
 
 @NgModule({
   declarations: [
