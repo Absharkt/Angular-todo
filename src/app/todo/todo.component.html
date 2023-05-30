@@ -1,0 +1,11 @@
+<div class="mb-5">
+    <h2>Add New Task</h2>
+    <input type="text" class="form-control w-50 d-inline mt-3" #newNote>
+    <button class="btn btn-sm btn-dark mx-4" (click)="addNotes(newNote.value)">Add</button>
+</div>
+
+<div *ngFor="let todo of todos">
+    <span>{{todo.task}}</span>
+    <a class="text-danger mx-3" (click)="deleteNotes(todo.id)">Delete</a>
+</div>
+
