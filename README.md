@@ -1,5 +1,8 @@
 # AngularTodo
 
+This is a simple Todo application built with Angular and Firebase.
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
 
 ## Development server
